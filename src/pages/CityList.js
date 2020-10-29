@@ -44,7 +44,7 @@ const CityList = (props) => {
 
     return (
         <SafeAreaView>
-            <View>
+            <View style={{backgroundColor:"#546e7a"}}>
                 <Text style={{ margin: 5, fontWeight: 'bold', fontSize: 30 }}>Cities</Text>
                 <SearchBar
                     placeholder="Search a city..."
