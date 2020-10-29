@@ -52,7 +52,7 @@ const RestaurantList = (props) => {
         <SafeAreaView style={{ flex: 1 }}>
             <View style={{ flex: 1 ,backgroundColor:"#1c313a" }}>
                 <View>
-                    <Text style={{ margin: 5, fontWeight: 'bold', fontSize: 30 }}>{selectedCity} Restaurants</Text>
+                    <Text style={{ margin: 5, fontWeight: 'bold', fontSize: 30,color:"white" }}>{selectedCity} Restaurants</Text>
                     <SearchBar
                         placeholder="Search a restaurant..."
                         onSearch={(value) => searchRestaurant(value)}
